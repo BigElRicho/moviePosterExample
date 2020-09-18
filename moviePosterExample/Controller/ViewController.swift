@@ -24,14 +24,14 @@ class ViewController: UIViewController {
     {
         if movieTitle.text == "Man of Steel"
         {
-            movie = Movie.LionKing
+            movie = Movie.lionKing
         }
         else
         {
             movie = Movie.manOfSteel
         }
         
-        movieTitle.text = movie.details.title
+        movieTitle.text = movie.detail.title
         
         poster.image = UIImage(named: movie.detail.imageName)
         
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        movieTitle.text = movie.details.title
+        movieTitle.text = movie.detail.title
         
         poster.image = UIImage(named: movie.detail.imageName)
         

@@ -223,6 +223,7 @@
 				TargetAttributes = {
 					B966A5B8251473B10052BF61 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 					B966A5CF251473B90052BF61 = {
 						CreatedOnToolsVersion = 10.3;
