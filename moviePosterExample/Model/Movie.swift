@@ -7,3 +7,21 @@
 //
 
 import Foundation
+
+enum Movie
+{
+    case manOfSteel, lionKing
+    
+    var detail:(title:String, imageName:String, runningTime:Double)
+        
+    {
+    switch self
+    {
+        case .manOfSteel:
+            return ("Man of Steel", "man_of_steel", 143 )
+        case .lionKing:
+            return ("The Lion King", "lion_king", 149)
+    }
+    
+    }
+}
